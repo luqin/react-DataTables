@@ -10,12 +10,17 @@ import {
   Nav,
   NavItem,
   NavDropdown,
-  MenuItem
+  MenuItem,
+  Grid,
+  Row,
+  Col
 } from 'react-bootstrap';
 
 class App extends React.Component {
 
-  static propTypes = {};
+  static propTypes = {
+    children: React.PropTypes.node,
+  };
 
   static defaultProps = {};
 
@@ -31,16 +36,24 @@ class App extends React.Component {
     return (
       <div>
         <Navbar inverse toggleNavKey={0}>
-          <NavBrand>React-DataTables</NavBrand>
-          <Nav eventKey={0}> {/* This is the eventKey referenced */}
-            <NavItem eventKey={1} href="#">Getting started</NavItem>
+          <NavBrand><a href="#">React-DataTables</a></NavBrand>
+          <Nav eventKey={1}>
+            <NavItem eventKey={1} href="#getting-started">Getting started</NavItem>
             <NavDropdown title="Examples" id="collapsible-navbar-dropdown">
               <MenuItem eventKey="1" href="#examples/basic">Basic</MenuItem>
+              <MenuItem eventKey="1" href="#examples/complex-headers">Complex headers</MenuItem>
+              <MenuItem eventKey="1" href="#examples/javascript-sourced-data">Javascript sourced data</MenuItem>
             </NavDropdown>
             <NavItem eventKey={2} href="https://github.com/luqin/react-DataTables" target="_blank">GitHub</NavItem>
           </Nav>
         </Navbar>
-        {this.props.children}
+        <Grid fluid>
+          <Row>
+            <Col md={12}>
+              {this.props.children}
+            </Col>
+          </Row>
+        </Grid>
       </div>
     );
   }
