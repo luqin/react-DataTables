@@ -1,9 +1,8 @@
 import React from 'react';
 
-import 'jstree/dist/themes/default/style.css';
-import ReactJstree from 'react-jstree';
+import DataTable from 'react-datatables';
 
-class TreeDemo extends React.Component {
+class Basic extends React.Component {
 
   static propTypes = {};
 
@@ -19,9 +18,9 @@ class TreeDemo extends React.Component {
 
   render() {
     return (
-      <ReactJstree>MyComponent</ReactJstree>
+      <DataTable/>
     );
   }
 }
 
-export default TreeDemo;
+export default Basic;

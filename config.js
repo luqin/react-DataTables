@@ -3,11 +3,11 @@ var path = require('path');
 var taskConfig = {
 
   component: {
-    name: 'react-jstree',
+    name: 'react-datatables',
     scripts: {
       entry: './src/index.js',
       output: {
-        library: 'ReactJstree'
+        library: 'ReactDatatables'
       },
       externals: {
         react: {
@@ -27,9 +27,9 @@ var taskConfig = {
     src: './examples/src',
     dist: './examples/dist',
     index: 'index.html',
-    script: 'index.js',
+    script: 'js/app.js',
     alias: {
-      'react-jstree': path.resolve(__dirname, './src')
+      'react-datatables': path.resolve(__dirname, './src')
     },
     files: []
   }

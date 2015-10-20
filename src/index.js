@@ -1,5 +1,3 @@
-import Tree from './Tree';
-import TreeNode from './TreeNode';
-Tree.TreeNode = TreeNode;
+import DataTable from './DataTable';
 
-export default Tree;
+export default DataTable;

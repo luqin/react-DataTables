@@ -1,6 +1,6 @@
 var language = {
     "sProcessing": "处理中...",
-    "sLengthMenu": "每页显示 _MENU_ 个, ",
+    "sLengthMenu": "_MENU_",
     "sZeroRecords": "没有匹配结果",
     "sInfo": "共 _TOTAL_ 个结果",
     "sInfoEmpty": "显示第 0 至 0 项结果, 共 0 项",

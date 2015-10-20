@@ -1,4 +1,4 @@
-# react-DataTables
+# React-DataTables
 
 [![NPM version][npm-badge]][npm] [![Build Status][travis-ci-image]][travis-ci-url]
 
