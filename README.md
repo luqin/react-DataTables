@@ -6,7 +6,7 @@
 [![devDependency Status][dev-deps-badge]][dev-deps]
 [![peerDependency Status][peer-deps-badge]][peer-deps]
 
-[jstree](https://github.com/DataTables/DataTables) components built with [React](http://facebook.github.io/react/).
+[DataTables](https://github.com/DataTables/DataTables) components built with [React](http://facebook.github.io/react/).
 
 
 [npm-badge]: http://badge.fury.io/js/react-datatables.svg
