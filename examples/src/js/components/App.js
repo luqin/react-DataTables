@@ -37,7 +37,7 @@ class App extends React.Component {
             <NavDropdown title="Examples" id="collapsible-navbar-dropdown">
               <MenuItem eventKey="1" href="#examples/basic">Basic</MenuItem>
             </NavDropdown>
-            <NavItem eventKey={2} href="https://github.com/luqin/react-DataTables">Github</NavItem>
+            <NavItem eventKey={2} href="https://github.com/luqin/react-DataTables" target="_blank">GitHub</NavItem>
           </Nav>
         </Navbar>
         {this.props.children}
